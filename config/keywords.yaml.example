@@ -1,0 +1,20 @@
+# ニュース通知先とキーワード設定
+notification_targets:
+  - name: "main_channel"
+    line_user_id: "LINE_USER_ID"
+    keywords:
+      - "AI"
+      - "機械学習"
+      - "Python"
+      - "ChatGPT"
+      - "自然言語処理"
+    llm_provider: "gemini"  # gemini または ollama
+
+  # 将来的に複数の通知先を追加可能
+  # - name: "tech_channel"
+  #   line_user_id: "ANOTHER_LINE_USER_ID"
+  #   keywords:
+  #     - "クラウド"
+  #     - "AWS"
+  #     - "Docker"
+  #   llm_provider: "ollama"

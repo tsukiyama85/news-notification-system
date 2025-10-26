@@ -1,0 +1,9 @@
+keywords.yaml
+.env
+*.log
+
+__pycache__/
+*.pyc
+
+.coverage
+coverage.*
